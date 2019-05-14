@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) ,url(img/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+img {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+/* whole-body div */
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-area {
+    height: 70vh;
+    width: 60%;
+    background-color: #E8E8E8;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(102, 204, 255, 0.6);
+}
+
+.header {
+    height: 50px;
+    width: auto;
+    text-align: center;
+    background-color: rgba(255, 0, 102, 0.5);
+    margin: 5px 15px;
+    border-radius: 55px;
+    color: #ffffff;
+}
+
+.body-area {
+    background-color: #F0F0F0;
+    margin: 30px 15px 10px 15px;
+    padding: 30px;
+    height: 78%;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    margin: 0px 5px;
+}
+
+#form-header {
+    color: #ff6699;
+}
+
+#button-area {
+    display: block;
+    justify-content: center;
+   margin-left: 5%;
+}
+
+#button-area button {
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#submit-area {
+    float: right;
+    margin-top: 15px;
+}
+
+#score-definition {
+   color: #00b36b;
+    font-size: 30px;
+}
+
+#score {
+     color: #ff0066;
+    text-align: center;
+    margin: 20%;
+    font-size: 100px;
+}
+
+.btn-new {
+    top: 20px;
+    background: none;
+    border: none;
+    color: rgba(0, 107, 179, 0.9);
+    text-align: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 20%;
+    font-size: 
+}
