@@ -1,65 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <title> PIG GAME - SOBHAN </title>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="icons/css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>SOBHAN NIROULA - public portfolio!! </title>
 
 </head>
 
+
+
+
 <body>
 
-    <div class="main-container">
-        <div class="player-area player-0-area active">
-            <div class="player-name" id="player-name-0"> Player 1 </div>
-            <div class="player-score" id="player-score-0"> 55 </div>
-            <div class="current-score-area">
-                <div class="current-word"> Current Score </div>
-                <div class="current-score" id="current-score-0"> 2 </div>
-            </div>
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
+       
+        <a class="navbar-brand navbar-dark" href="#"><img src="img/Sobhan%20Photography%201.png" alt="Sobhan Photography Logo" height="30"></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolioNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="portfolioNavbar">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link mr-2" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#photography">Photography</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="#videography">Videography</a>
+                </li>
+                   
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="#it-projects">IT Projects</a>
+                </li>
+            </ul>
+           
         </div>
+    </nav>
 
-        <div class="player-area player-1-area">
-            <div class="player-name" id="player-name-1"> Player 2 </div>
-            <div class="player-score" id="player-score-1"> 10 </div>
-            <div class="current-score-area">
-                <div class="current-word"> Current Score </div>
-                <div class="current-score" id="current-score-1"> 8 </div>
-            </div>
+
+    <!-- STAGE -->
+    <div id="stage">
+        <div id="stage-caption">
+            <h1 class="display-3">My Portfolio!!
+                <h6 id="stage-desc">Sobhan Niroula</h6>
+                <a href="" class="btn btn-lg btn-success">sign up</a>
+            </h1>
         </div>
-
-        <button class="button btn-new"><i class="material-icons">add_circle_outline</i> Play a New Game</button>
-        <button class="button btn-roll"><i class="material-icons">cached</i> Roll the dice</button>
-        <button class="button btn-hold"><i class="material-icons">pan_tool</i> Hold the score</button>
-        <button class="button btn-rules"><i class="material-icons">info</i> Read the Rules </button>
+    </div>
 
 
-        <img src="img/dice-4.png" alt="dice" class="dice" id="dice-2">
 
 
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close"> &times; </span>
-                    <h4> RULES OF THE GAME </h4>
-                </div>
-                <div class="modal-body">
-                    <p> 
-1. The game has 2 players, playing in rounds. <br>
-2. In each turn, a player rolls a dice as many times as he whishes. Each result get added to his CURRENT score. <br>
-3. BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn. <br>
-4. The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn. <br>
-5. The first player to reach 100 points on GLOBAL score wins the game. <br> </p>
-                </div>
-            </div>
-        </div>
 
 
-    <script src="script.js"> </script>
-</body>
 
-</html>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>
