@@ -7,9 +7,6 @@ body {
     height: 100%;
 }
 
-html {
-   
-}
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -162,7 +159,7 @@ span {
     position: absolute;
     width: 90%;
     height: 77%;
-    left: 1.9rem;
+    left: 1.6rem;
     top: 1.2rem;  
 }
 
@@ -170,7 +167,7 @@ span {
     position: absolute;
     width: 90%;
     height: 77%;
-    left: 1.8rem;
+    left: 1.6rem;
     top: 1rem;  
 }
 
