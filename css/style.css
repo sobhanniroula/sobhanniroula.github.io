@@ -84,7 +84,7 @@ img {
 
 
 span {
-    margin: 0 0.5rem 0 0.5rem;
+    margin: 0 0 0 0.5rem;
 }
 
 .carousel-item h3 {
@@ -158,6 +158,22 @@ span {
     top: 0.5rem;
 }
 
+#thesisReact-img {
+    position: absolute;
+    width: 90%;
+    height: 77%;
+    left: 1.9rem;
+    top: 1.2rem;  
+}
+
+#thesisPhp-img {
+    position: absolute;
+    width: 90%;
+    height: 77%;
+    left: 1.8rem;
+    top: 1rem;  
+}
+
 #piggame-img {
     position: absolute;
     width: 90%;
@@ -166,12 +182,20 @@ span {
     top: 0.3rem;  
 }
 
+#portfolioWebsite-img {
+    position: absolute;
+    width: 90%;
+    height: 77%;
+    left: 1.8rem;
+    top: 0.4rem;  
+}
+
 .feature-alt {
    background: #f0f0f0;
 }
 
 #quote-section .feature-content{
-    padding: 0;
+    padding: 1rem 0 0 0;
 }
 
 #page-footer {
