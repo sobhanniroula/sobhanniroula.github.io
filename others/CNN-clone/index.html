@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CNN Homepage</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Bootstrap Grid -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+    <header class="page-header">
+        <div class="wrapper">
+            <div class="header-left">
+                <div class="page-logo">
+                    <a href="/"><img src="img/cnn-logo.png" alt="Page Logo"></a>
+                </div>
+                <nav class="page-nav">
+                    <ul>
+                        <li><a href="">Regions</a></li>
+                        <li><a href="">U.S. Politics</a></li>
+                        <li><a href="">Money</a></li>
+                        <li><a href="">Entertainment</a></li>
+                        <li><a href="">Tech</a></li>
+                        <li><a href="">Sport</a></li>
+                        <li><a href="">Travel</a></li>
+                        <li><a href="">Style</a></li>
+                        <li><a href="">Health</a></li>
+                        <li><a href="">Video</a></li>
+                        <li><a href="">VR</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header-right">
+                <div class="international-edition">
+                    <input type="checkbox" id="international-switcher" hidden>
+                    <label for="international-switcher">International Edition + </label>
+                    <div class="international-block">
+                        <ul>
+                            <li>US</li>
+                            <li>Arabic</li>
+                            <li>Español</li>
+                        </ul>
+                        <hr>
+                        <p>Set edition preference:</p>
+                        <div class="row-block edition-block">
+                            <input type="radio" id="us-id" name="country-group">
+                            <label for="us-id">U.S.</label>
+                            <input type="radio" id="inter-id" name="country-group" checked>
+                            <label for="inter-id">International</label>
+                        </div>
+                        <div class="row-block edition-block">
+                            <button class="confirm">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-search">
+                    <input type="checkbox" id="search-switcher" hidden>
+                    <input type="search" class="page-search-field" placeholder="Search CNN..." id="page-search-field">
+                    <label for="page-search-field" class="page-search-field-label">Search >></label>
+                    <label for="search-switcher" class="search-switcher-label"><i class="fas fa-search"></i></label>
+                </div>
+                <div class="header-expanded-menu">
+                    <input type="checkbox" id="expanded-switcher" hidden>
+                    <label for="expanded-switcher"><i class="fas fa-bars"></i></label>
+                    <div class="header-expanded-menu-block">
+                        <div class="container">
+                            <div class="expanded-top-block">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Regions</h3>
+                                                <ul>
+                                                    <li><a href="">U.S</a></li>
+                                                    <li><a href="">Africa</a></li>
+                                                    <li><a href="">Americas</a></li>
+                                                    <li><a href="">Asia</a></li>
+                                                    <li><a href="">China</a></li>
+                                                    <li><a href="">Europe</a></li>
+                                                    <li><a href="">Middle East</a></li>
+                                                    <li><a href="">Opinion</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>U.S. Politics</h3>
+                                                <ul>
+                                                    <li><a href="">45</a></li>
+                                                    <li><a href="">Congress</a></li>
+                                                    <li><a href="">Security</a></li>
+                                                    <li><a href="">The Nine</a></li>
+                                                    <li><a href="">Trumpmerica</a></li>
+                                                    <li><a href="">State</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Money</h3>
+                                                <ul>
+                                                    <li><a href="">Business</a></li>
+                                                    <li><a href="">Markets</a></li>
+                                                    <li><a href="">Tech</a></li>
+                                                    <li><a href="">Luxury</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>entertainment</h3>
+                                                <ul>
+                                                    <li><a href="">Stars</a></li>
+                                                    <li><a href="">Screen</a></li>
+                                                    <li><a href="">Binge</a></li>
+                                                    <li><a href="">Culture</a></li>
+                                                    <li><a href="">Media</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>tech</h3>
+                                                <ul>
+                                                    <li><a href="">Business</a></li>
+                                                    <li><a href="">Culture</a></li>
+                                                    <li><a href="">Gadgets</a></li>
+                                                    <li><a href="">Future</a></li>
+                                                    <li><a href="">Startups</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Sport</h3>
+                                                <ul>
+                                                    <li><a href="">Football</a></li>
+                                                    <li><a href="">Golf</a></li>
+                                                    <li><a href="">Tennis</a></li>
+                                                    <li><a href="">Motorsport</a></li>
+                                                    <li><a href="">Horseracing</a></li>
+                                                    <li><a href="">Equestrian</a></li>
+                                                    <li><a href="">Sailing</a></li>
+                                                    <li><a href="">Skiing</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Travel</h3>
+                                                <ul>
+                                                    <li><a href="">Aviation</a></li>
+                                                    <li><a href="">Business Traveller</a></li>
+                                                    <li><a href="">Destinations</a></li>
+                                                    <li><a href="">Features</a></li>
+                                                    <li><a href="">Food/Drink</a></li>
+                                                    <li><a href="">Hotels</a></li>
+                                                    <li><a href="">Partner Hotels</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>STYLE</h3>
+                                                <ul>
+                                                    <li><a href="">Fashion</a></li>
+                                                    <li><a href="">Design</a></li>
+                                                    <li><a href="">Architecture</a></li>
+                                                    <li><a href="">Arts</a></li>
+                                                    <li><a href="">Autos</a></li>
+                                                    <li><a href="">Luxury</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Health</h3>
+                                                <ul>
+                                                    <li><a href="">Diet+Fitness</a></li>
+                                                    <li><a href="">Living Well</a></li>
+                                                    <li><a href="">Parenting + Family</a></li>
+                                                    <li><a href="">Vital Signs</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Features</h3>
+                                                <ul>
+                                                    <li><a href="">Freedom Project</a></li>
+                                                    <li><a href="">Impact Your World</a></li>
+                                                    <li><a href="">Inside Africa</a></li>
+                                                    <li><a href="">2 degrees</a></li>
+                                                    <li><a href="">All Features</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>Video</h3>
+                                                <ul>
+                                                    <li><a href="">Video news</a></li>
+                                                    <li><a href="">Feature shows</a></li>
+                                                    <li><a href="">HLN</a></li>
+                                                    <li><a href="">TV shows</a></li>
+                                                    <li><a href="">TV schedule</a></li>
+                                                    <li><a href="">Faces of CNN Worldwide</a></li>
+                                                    <li><a href="">CNNVR</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="expanded-col">
+                                                <h3>More...</h3>
+                                                <ul>
+                                                    <li><a href="">Weather</a></li>
+                                                    <li><a href="">CNN Heroes</a></li>
+                                                    <li><a href="">CNN Profiles</a></li>
+                                                    <li><a href="">Leadership</a></li>
+                                                    <li><a href="">Pressroom</a></li>
+                                                    <li><a href="">Partner sites</a></li>
+                                                    <li><a href="">iReport</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="expanded-bottom-block">
+                                <div class="international-block">
+                                    <ul>
+                                        <li><img src="img/cnn-logo-us.png" alt="US logo">US</li>
+                                        <li><img src="img/cnn-logo-espanol.png" alt="Spain logo">Español</li>
+                                        <li><img src="img/logo_cnn_arabic.png" alt="Logo Arabic">Arabic</li>
+                                    </ul>
+                                    <hr>
+                                    <p>Set edition preference:</p>
+                                    <div class="row-block edition-block">
+                                        <input type="radio" id="us-id" name="country-group-1">
+                                        <label for="us-id-1">U.S.</label>
+                                        <input type="radio" id="inter-id" name="country-group-1" checked>
+                                        <label for="inter-id-1">International</label>
+                                    </div>
+                                    <div class="row-block edition-block">
+                                        <button class="confirm">Confirm</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+    <!-- MAIN SECTION -->
+
+    <main>
+<div class="wrapper">
+   <div class="container-fluid">
+    <section class="row">
+    
+    <div class="col-5">
+        <h1>Searching for a lifeline</h1>    
+        <article>
+            <div class="image-block">
+                <img src="img/articles/UK%20election%20fallout.jpg" alt="UK Election">
+                <div class="label-block">
+                    <div class="image-label">UK election fallout</div>
+                </div>
+            </div>
+            <h3 class="bold">Brit PM May has lost control of her party, Parliament, policy manifesto and Brexit</h3>
+            <ul class="last-news">
+                <li><a href="">What UK election earthquake means for the world</a></li>
+                <li class="play"><a href="">Where do UK Conservatives go from here?</a></li>
+            </ul>
+        </article>
+        
+        
+    </div>
+    
+    <div class="col">
+        <article>
+            <div class="image-block">
+                <img src="img/articles/passenger-jet.jpg" alt="UK Election">
+            </div>
+            <h3 class="semi-gray">Engine part rips off passenger jet after take off</h3>
+        </article>
+         <article>
+            <div class="image-block">
+                <img src="img/articles/Trump%20hugging.jpg" alt="UK Election">
+            </div>
+            <h3 class="semi-gray">Trump crashes New Jersey wedding</h3>
+        </article>
+    </div>
+    
+    <div class="col">
+       <article>
+           <div class="category">Top Stories</div>
+            <div class="image-block">
+                <img src="img/articles/French%20election.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">Macron on course for huge gains in French parliamentary elections</h3>
+            <ul class="last-news">
+                <li><a href="">Russia cloud settles in over Trump</a></li>
+                <li><a href="">Puerto Rico votes to become 51st US state</a></li>
+                <li><a href="">Arrests as South Korean military conducts 'gay witch-hunt'</a></li>
+                <li><a href="">If there are Comey tapes, does Trump have to turn them over?</a></li>
+                <li><a href="">Gulf crisis threatens to tear families apart</a></li>
+                <li><a href="">Ex-US attorney opens up about Trump calls</a></li>
+            </ul>
+        </article>
+    </div>
+    
+ </section>  
+    
+                 
+                                                                   
+    <section class="row">
+        
+        <div class="col">
+            <article>
+           <div class="category">Around the world</div>
+            <div class="image-block">
+                <img src="img/articles/French%20open%20tennis.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">Rafael Nadal makes history at French Open</h3>
+            <ul class="last-news">
+                <li><a href="">Melania moves into the White House</a></li>
+                <li><a href="">Iran sends planes stuffed with food to Qatar</a></li>
+                <li><a href="">Qatar hires Bush attorney general</a></li>
+                <li><a href="">Uber workplace culture under fire</a></li>
+                <li><a href="">TV host after crash: 'I'm not dead'</a></li>
+                <li><a href="">London: Fake suicide belt photos released</a></li>
+            </ul>
+        </article>
+        </div>
+        
+        <div class="col-5">
+           <div class="category">Featured</div>
+            <article class="no-margin">
+            <div class="image-block">
+                <img src="img/articles/massacre.jpg" alt="UK Election">
+                <div class="label-block">
+                    <div class="image-label">One Year On</div>
+                    <h3 class="full-width-heading no-margin">How Pulse massacre pushed some back into the closet</h3>
+                </div>
+            </div>
+            </article>
+            
+            <article class="no-margin">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="img/articles/kids.jpg" alt="Kids">
+                    </div>
+                    <div class="col-7">
+                        <h3 class="middle-size">Wealth obsession gone too far?</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="img/articles/meals.jpg" alt="Kids">
+                    </div>
+                    <div class="col-7">
+                        <h3 class="middle-size">Why these are 'meals rejected by everyone'</h3>
+                    </div>
+                </div>
+            </article>
+            
+        </div>
+        
+        <div class="col">
+             <div class="category">Spotlight</div>
+             
+            <article class="no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/Sharapova.jpg" alt="Sharapova">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size">Sharapova pulls out of Wimbledon qualifying</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/Lebonon.jpg" alt="Lebanon">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size">Why there are 47 Lebanons in the US</h3>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+    </section>  
+                        
+                                  
+    <section>
+        <div class="row">
+            
+        <div class="col">
+             <article>
+           <div class="category">Take a closer look</div>
+            <div class="image-block">
+                <img src="img/articles/wonder-woman.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">'Wonder Woman' soars, 'The Mummy' staggers</h3>
+            
+            <article class="top-border no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/Canadian.jpg" alt="Canadian">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size">Hamilton gets sixth Canadian Grand Prix win</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/statue.jpg" alt="Statue">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size">Orlando's new 'culture of compassion'</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/happy.jpg" alt="Happy">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size">Want to be happy and successful? Try compassion</h3>
+                    </div>
+                </div>
+            </article>
+            
+        </article>
+        </div>
+        
+        <div class="col-5">
+            <article class="no-margin">
+            <div class="image-block">
+                <img src="img/articles/Tony.jpg" alt="Tony Awards">
+                <div class="label-block">
+                    <h3 class="full-width-heading no-margin with-opacity">Who were the big winners at the Tony Awards?</h3>
+                </div>
+            </div>
+            </article>
+            
+            <article class="no-margin">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="img/articles/Hongkong.jpg" alt="HongKong">
+                    </div>
+                    <div class="col-7">
+                        <h3 class="middle-size">Exploring Hong Kong's greenest island</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="img/articles/ancient.jpg" alt="Ancient Tribes">
+                    </div>
+                    <div class="col-7">
+                        <h3 class="middle-size">'Lost' photos of ancient tribe uncovered</h3>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div class="col">
+            <article>
+           <div class="category">Opinion</div>
+            <div class="image-block">
+                <img src="img/articles/macron.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size"><span class="bold">David A. Andelman:</span> Macron, the strongman Europe needs</h3>
+            
+            <article class="top-border no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/Qatar.jpg" alt="Canadian">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size"><span class="bold">Oma Seddiq:</span> My life as a student in Qatar</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/woman.jpg" alt="Statue">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size"><span class="bold">Laura Beers:</span> History says Theresa May must go</h3>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="top-border no-margin">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/articles/James%20UK.jpg" alt="Happy">
+                    </div>
+                    <div class="col-9">
+                        <h3 class="small-size"><span class="bold">James Bloodworth:</span> Rise of the left-wing shakes UK politics</h3>
+                    </div>
+                </div>
+            </article>
+            
+        </article>
+        </div>
+        
+        </div>
+        
+    </section>          
+
+                       
+    
+    <section class="mt-30">
+       <h3 class="section-heading">Featured Section</h3>
+        <div class="row">
+            <div class="col-4">
+                <article>
+           <div class="category">Sport</div>
+            <div class="image-block">
+                <img src="img/articles/Salah.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">What happens in the 21 hours when soccer stars aren't training</h3>
+            <ul class="last-news">
+                <li><a href="">
+Red clay goes 'green' in $400M refurb </a></li>
+                <li><a href="">Grapes of success: Buffon ventures into wine business </a></li>
+                <li><a href="">Bryan Habana: Rugby star's surprise DNA discovery</a></li>
+                <li><a href=""> 
+Mario Balotelli isn't trouble, 'he's a good guy' </a></li>
+            </ul>
+        </article>
+            </div>
+            
+            <div class="col-4">
+                <article>
+           <div class="category">Travel</div>
+            <div class="image-block">
+                <img src="img/articles/volcano.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">A volcano on an island within a lake within an island </h3>
+            <ul class="last-news">
+                <li><a href="">The best maple syrup taffy in Montreal </a></li>
+                <li><a href="">Lantau: Exploring Hong Kong's greenest island </a></li>
+                <li><a href="">Secrets of the ancient Silk Road </a></li>
+                <li><a href="">Shopping in Barcelona: A fashion stylist's guide 
+ </a></li>
+            </ul>
+        </article>
+            </div>
+            
+            <div class="col-4">
+                <article>
+           <div class="category">Style</div>
+            <div class="image-block">
+                <img src="img/articles/planes.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">Incredible photos show the world as you've never seen it </h3>
+            <ul class="last-news">
+                <li><a href="">The terrifying symptoms of sleep paralysis</a></li>
+                <li><a href="">US embassy sparks controversy </a></li>
+                <li><a href="">The new carbon-eating tower rising in the East </a></li>
+                <li><a href="">Touching tribute to 'hipster' grandpa goes viral </a></li>
+            </ul>
+        </article>
+            </div>
+            
+            <div class="col-4">
+                <article>
+           <div class="category">CNN Money</div>
+            <div class="image-block">
+                <img src="img/articles/white-house.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">Trump is hurting American tourism </h3>
+            <ul class="last-news">
+                <li><a href="">Australia extends epic recession-free run</a></li>
+                <li><a href="">10 top-paid CEOs </a></li>
+                <li><a href="">Watch 350 balls of cotton turn into a shirt </a></li>
+                <li><a href="">How Russia's economy is staying resilient </a></li>
+            </ul>
+        </article>
+            </div>
+            
+            <div class="col-4">
+                <article>
+           <div class="category">Health</div>
+            <div class="image-block">
+                <img src="img/articles/fruit.jpg" alt="UK Election">
+            </div>
+            <h3 class="middle-size">Fruits and veggies that could poison you</h3>
+            <ul class="last-news">
+                <li><a href="">'Stealthing,': others call it sexual assault</a></li>
+                <li><a href="">Weight loss tied to when, not what, you eat </a></li>
+                <li><a href="">Your kids want to talk to you about sex </a></li>
+                <li><a href="">Man dies after swimming with new tattoo </a></li>
+            </ul>
+        </article>
+            </div>
+            
+            
+        </div>
+        
+        
+    </section>
+                                                                
+    </div>                            
+</div>
+
+   
+   
+   <section class="dark-section mt-30">
+       <div class="wrapper">
+          <h3 class="section-heading">In Case You Missed It </h3>
+           <div class="row">
+               <div class="col-9">
+                   <article class="no-margin">
+            <div class="image-block">
+                <img src="img/articles/Syria.jpg" alt="Syria War">
+                <div class="label-block">
+                    <div class="image-label">CNN Exclusive</div>
+                    <h3 class="full-width-heading no-margin with-opacity">Harrowing video shows Syria's war on its own children</h3>
+                </div>
+            </div>
+            </article>
+               </div>
+               
+               <div class="col-3">
+                   <article>
+                       <div class="image-block">
+                <img src="img/articles/European%20Leader.jpg" alt="UK Election">
+                <h3 class="middle-size">Which European leader are you?</h3>
+            </div>
+                   </article>
+                   <article>
+                       <div class="image-block">
+                <img src="img/articles/Venezuela.jpg" alt="UK Election">
+                <h3 class="middle-size">Venezuela: How paradise got lost</h3>
+            </div>
+                   </article>
+               </div>
+               
+               
+               
+               
+           </div>
+                      
+       </div>
+   </section>
+   
+   
+   
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="wrapper">
+
+            <div class="footer-top-block">
+                <div class="footer-weather">
+                    <p class="location">London, United Kingdom</p>
+                    <img src="img/weather-cloud.png" alt="Weather cloud" height="38">
+                    <div class="temp">16&deg;C</div>
+                </div>
+                <div class="search-block">
+                    <input type="search" class="search" id="footer-search" placeholder="Search CNN...">
+                    <label for="footer-search"><i class="fas fa-search"></i></label>
+                </div>
+
+            </div>
+
+
+            <div class="expanded-top-block">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Regions</h3>
+                                <ul>
+                                    <li><a href="">U.S</a></li>
+                                    <li><a href="">Africa</a></li>
+                                    <li><a href="">Americas</a></li>
+                                    <li><a href="">Asia</a></li>
+                                    <li><a href="">China</a></li>
+                                    <li><a href="">Europe</a></li>
+                                    <li><a href="">Middle East</a></li>
+                                    <li><a href="">Opinion</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>U.S. Politics</h3>
+                                <ul>
+                                    <li><a href="">45</a></li>
+                                    <li><a href="">Congress</a></li>
+                                    <li><a href="">Security</a></li>
+                                    <li><a href="">The Nine</a></li>
+                                    <li><a href="">Trumpmerica</a></li>
+                                    <li><a href="">State</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Money</h3>
+                                <ul>
+                                    <li><a href="">Business</a></li>
+                                    <li><a href="">Markets</a></li>
+                                    <li><a href="">Tech</a></li>
+                                    <li><a href="">Luxury</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>entertainment</h3>
+                                <ul>
+                                    <li><a href="">Stars</a></li>
+                                    <li><a href="">Screen</a></li>
+                                    <li><a href="">Binge</a></li>
+                                    <li><a href="">Culture</a></li>
+                                    <li><a href="">Media</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>tech</h3>
+                                <ul>
+                                    <li><a href="">Business</a></li>
+                                    <li><a href="">Culture</a></li>
+                                    <li><a href="">Gadgets</a></li>
+                                    <li><a href="">Future</a></li>
+                                    <li><a href="">Startups</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Sport</h3>
+                                <ul>
+                                    <li><a href="">Football</a></li>
+                                    <li><a href="">Golf</a></li>
+                                    <li><a href="">Tennis</a></li>
+                                    <li><a href="">Motorsport</a></li>
+                                    <li><a href="">Horseracing</a></li>
+                                    <li><a href="">Equestrian</a></li>
+                                    <li><a href="">Sailing</a></li>
+                                    <li><a href="">Skiing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Travel</h3>
+                                <ul>
+                                    <li><a href="">Aviation</a></li>
+                                    <li><a href="">Business Traveller</a></li>
+                                    <li><a href="">Destinations</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">Food/Drink</a></li>
+                                    <li><a href="">Hotels</a></li>
+                                    <li><a href="">Partner Hotels</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>STYLE</h3>
+                                <ul>
+                                    <li><a href="">Fashion</a></li>
+                                    <li><a href="">Design</a></li>
+                                    <li><a href="">Architecture</a></li>
+                                    <li><a href="">Arts</a></li>
+                                    <li><a href="">Autos</a></li>
+                                    <li><a href="">Luxury</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Health</h3>
+                                <ul>
+                                    <li><a href="">Diet+Fitness</a></li>
+                                    <li><a href="">Living Well</a></li>
+                                    <li><a href="">Parenting + Family</a></li>
+                                    <li><a href="">Vital Signs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Features</h3>
+                                <ul>
+                                    <li><a href="">Freedom Project</a></li>
+                                    <li><a href="">Impact Your World</a></li>
+                                    <li><a href="">Inside Africa</a></li>
+                                    <li><a href="">2 degrees</a></li>
+                                    <li><a href="">All Features</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>Video</h3>
+                                <ul>
+                                    <li><a href="">Video news</a></li>
+                                    <li><a href="">Feature shows</a></li>
+                                    <li><a href="">HLN</a></li>
+                                    <li><a href="">TV shows</a></li>
+                                    <li><a href="">TV schedule</a></li>
+                                    <li><a href="">Faces of CNN Worldwide</a></li>
+                                    <li><a href="">CNNVR</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="expanded-col">
+                                <h3>More...</h3>
+                                <ul>
+                                    <li><a href="">Weather</a></li>
+                                    <li><a href="">CNN Heroes</a></li>
+                                    <li><a href="">CNN Profiles</a></li>
+                                    <li><a href="">Leadership</a></li>
+                                    <li><a href="">Pressroom</a></li>
+                                    <li><a href="">Partner sites</a></li>
+                                    <li><a href="">iReport</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body></html>
