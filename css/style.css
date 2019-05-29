@@ -14,7 +14,12 @@ body {
     color: #6c6f73;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #333;
 }
 
@@ -85,7 +90,7 @@ span {
 }
 
 .carousel-item h3 {
-       color: white;
+    color: white;
 }
 
 .feature-content {
@@ -102,7 +107,9 @@ span {
     color: white;
 }
 
-.back-dark h2, .back-dark h5, .back-dark h6{
+.back-dark h2,
+.back-dark h5,
+.back-dark h6 {
     color: white;
 }
 
@@ -124,7 +131,7 @@ span {
 }
 
 #flagship-img {
-   position: absolute;
+    position: absolute;
     top: 2rem;
     right: 0.1rem;
     height: 70%;
@@ -160,7 +167,7 @@ span {
     width: 90%;
     height: 77%;
     left: 1.6rem;
-    top: 1.2rem;  
+    top: 1.2rem;
 }
 
 #thesisPhp-img {
@@ -168,7 +175,7 @@ span {
     width: 90%;
     height: 77%;
     left: 1.6rem;
-    top: 1rem;  
+    top: 1rem;
 }
 
 #piggame-img {
@@ -176,22 +183,38 @@ span {
     width: 90%;
     height: 80%;
     left: 1.4rem;
-    top: 0.3rem;  
+    top: 0.3rem;
 }
 
 #portfolioWebsite-img {
     position: absolute;
     width: 90%;
     height: 77%;
-    left: 1.8rem;
-    top: 0.4rem;  
+    left: 1.5rem;
+    top: 0.4rem;
+}
+
+#myself-img {
+    position: absolute;
+    width: 90%;
+    height: 77%;
+    left: 1.5rem;
+    top: 1rem;
+}
+
+#CNN-img {
+    position: absolute;
+    width: 90%;
+    height: 77%;
+    left: 1.5rem;
+    top: 1.1rem;
 }
 
 .feature-alt {
-   background: #f0f0f0;
+    background: #f0f0f0;
 }
 
-#quote-section .feature-content{
+#quote-section .feature-content {
     padding: 1rem 0 0 0;
 }
 
@@ -202,7 +225,7 @@ span {
     font-size: 0.8rem;
 }
 
-#page-footer li a{
+#page-footer li a {
     color: #6C6F73;
 }
 
@@ -218,12 +241,13 @@ span {
     .feature-content {
         flex-wrap: wrap;
     }
-    .feature-content .col-lg-5{
+
+    .feature-content .col-lg-5 {
         padding-top: 4rem;
     }
+
     #ph-div {
-    margin-bottom: 0;
-    margin-top: 0;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
-
