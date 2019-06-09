@@ -1,0 +1,148 @@
+/* Basic CSS Reset */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+/* Custom CSS Styles */
+body {
+    height: 100vh;
+    width: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* CSS styles for calculator */
+.calculator {
+    border: 0.2rem solid #428bca;
+    border-radius: 0.3rem;
+    width: 33rem;
+    height: auto;
+    background: #F8F8F8;
+}
+
+.calculator-display {
+    width: 100%;
+    height: 9.5rem;
+    border: none;
+    font-size: 5rem;
+    background: #F0F0F0;
+    color: #333;
+    text-align: right;
+    padding: 1rem;
+}
+
+button {
+    height: 8.5rem;
+    border-radius: 0.1rem;
+    background: #F5F5F5;
+    /*    border: 1px solid rgba(51, 153, 102, 0.7);*/
+    border: none;
+    font-size: 2.5rem;
+    color: #aaa;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+}
+
+button:hover {
+    background: #E8E8E8;
+    /*    cursor: pointer;*/
+}
+
+.operator {
+    color: #f66;
+    background: #E8E8E8;
+}
+
+.operator:hover {
+    background: #F5F5F5;
+}
+
+.all-clear-key {
+    background: #d9534f;
+    margin: 0.1rem;
+    color: #fff;
+    height: 99%;
+}
+
+.all-clear-key:hover {
+    background: #f9534f;
+}
+
+.equal-key {
+    background: #428bca;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 100%;
+    margin: 0.1rem;
+    color: #fff;
+}
+
+.equal-key:hover {
+    background: #028bc1;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0rem;
+}
+
+#plus {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 100%;
+}
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .calculator {
+        width: 800px;
+        height: 1200px;
+    }
+    .calculator-display {
+        height: 210px;
+        font-size: 100px;
+        
+    }
+    button {
+        height: 195px;
+    }
+}
+
+@media (min-width: 512px) and (max-width: 1024px) {
+    body {
+        overflow: scroll;
+    }
+    .calculator {
+        width: 500px;
+        height: 700px;
+    }
+    .calculator-display {
+        height: 120px;
+        font-size: 70px;
+        
+    }
+    button {
+        height: 115px;
+    }
+}
