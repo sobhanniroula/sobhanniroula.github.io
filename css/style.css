@@ -248,6 +248,15 @@ span {
     top: 1.1rem;
 }
 
+#calc-img {
+    position: absolute;
+    width: 90%;
+    height: 75%;
+    left: 1.5rem;
+    top: 1.1rem;
+}
+
+
 .feature-alt {
     background: #f0f0f0;
 }
