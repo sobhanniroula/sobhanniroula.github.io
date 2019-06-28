@@ -122,6 +122,10 @@ span {
 .back-dark .monitor-transparent {
     filter: invert(90%) brightness(95%) contrast(80%);
 }
+/* 
+.back-dark .mobile-transparent {
+    filter: invert(90%) brightness(95%) contrast(80%);
+} */
 
 .overlap-div {
     position: relative;
@@ -134,6 +138,30 @@ span {
     position: relative;
     top: 0;
     left: 0;
+}
+
+.mobile-transparent {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+}
+
+#movemandu-img {
+    position: absolute;
+    top: 3.5rem;
+    left: 1.7rem;
+    height: 80%;
+    width: 43%;
+}
+
+#weather-img {
+    position: absolute;
+    top: 3.5rem;
+    left: 1.7rem;
+    height: 80%;
+    width: 43%;
 }
 
 #flagship-img {
