@@ -284,6 +284,14 @@ span {
     top: 1.1rem;
 }
 
+#hand-detector-img {
+    position: absolute;
+    width: 90%;
+    height: 75%;
+    left: 1.9rem;
+    top: 1.1rem;
+}
+
 
 .feature-alt {
     background: #f0f0f0;
