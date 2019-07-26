@@ -1,0 +1,70 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(0,153,136,0.7), rgba(0,119,153,0.7));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ddd;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.instructions p {
+    text-align: center;
+    color: #bbb;
+}
+
+.instructions h4 {
+    color: #a77;
+}
+
+button {
+    height: 4rem;
+    width: 14rem;
+    background-color: brown;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+h3 {
+    background-color: rgb(170, 133, 85);
+    color: #ccc;
+    padding: 7px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 auto;
+}
+
